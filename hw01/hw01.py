@@ -1,5 +1,6 @@
 from operator import add, sub
 
+
 def a_plus_abs_b(a, b):
     """Return a+abs(b), but without calling abs.
 
@@ -13,9 +14,9 @@ def a_plus_abs_b(a, b):
     ['return h(a, b)']
     """
     if b >= 0:
-        h = _____
+        h = add
     else:
-        h = _____
+        h = sub
     return h(a, b)
 
 
@@ -37,7 +38,7 @@ def two_of_three(x, y, z):
     >>> [type(x).__name__ for x in ast.parse(inspect.getsource(two_of_three)).body[0].body]
     ['Expr', 'Return']
     """
-    return _____
+    return x * x + y * y + z * z - max(x, y, z) ** 2
 
 
 def largest_factor(x):
@@ -51,6 +52,12 @@ def largest_factor(x):
     1
     """
     "*** YOUR CODE HERE ***"
+    fact = x - 1
+    while fact >= 1:
+        if x % fact == 0:
+            return fact
+        fact = fact - 1
+    return 0
 
 
 def if_function(condition, true_result, false_result):
@@ -84,6 +91,7 @@ def with_if_statement():
     else:
         return false_func()
 
+
 def with_if_function():
     """
     >>> result = with_if_function()
@@ -94,14 +102,20 @@ def with_if_function():
     """
     return if_function(cond(), true_func(), false_func())
 
+
 def cond():
     "*** YOUR CODE HERE ***"
+    return False
+
 
 def true_func():
     "*** YOUR CODE HERE ***"
+    print(42)
+
 
 def false_func():
     "*** YOUR CODE HERE ***"
+    print(47)
 
 
 def hailstone(x):
@@ -120,4 +134,13 @@ def hailstone(x):
     7
     """
     "*** YOUR CODE HERE ***"
-
+    cnt = 1
+    while x != 1:
+        print(x)
+        if (x & 1):
+            x = x * 3 + 1
+        else:
+            x = x // 2
+        cnt += 1
+    print(x)
+    return cnt
