@@ -148,15 +148,13 @@ def cycle(f1, f2, f3):
             t = n // 3
             re = n % 3
             for i in range(t):
-                x = f3(f2(f1(x)))
+                x = f3(f2(f2(x)))
             if not re:
                 return x
             elif re == 1:
                 return f1(x)
             else:
                 return f2(f1(x))
-        return x_cycle
-    return n_cycle
 
 
 
