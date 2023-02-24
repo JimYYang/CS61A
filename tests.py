@@ -135,3 +135,37 @@ def sculptural(ruler, k):
     b = sculptural(ruler // 10, k)
 
     return max(a, b)
+
+def f(a, b):
+    if a > b:
+        return f(a - 3, 2 * b)
+    elif a < b:
+        return f(b // 2, a)
+    else:
+        return b
+
+def num_eights(n):
+    if n == 0:
+        return 0
+    return (n % 10 == 8) + num_eights(n // 10)
+
+def help(k):
+    direc = 1
+    x = 0
+    i = 1
+    while i <= k:
+        x += direc
+        if num_eights(i) or i % 8 == 0:
+            direc = -direc
+        i += 1
+    return x
+
+def pq(k):
+    def helper(i, state, direc):
+        if i == k:
+            return state
+        if num_eights(i) or i % 8 == 0:
+            return helper(i + 1, state - direc, direc * -1)
+        else:
+            return helper(i + 1, state + direc, direc)
+    return helper(1, 1, 1)
