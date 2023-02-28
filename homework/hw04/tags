@@ -1,0 +1,67 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ExclusionChecker	construct_check.py	/^class ExclusionChecker(NodeVisitor):$/;"	c
+HW_SOURCE_FILE	hw04.py	/^HW_SOURCE_FILE=__file__$/;"	v
+Name	construct_check.py	/^from ast import parse, NodeVisitor, Name$/;"	i
+NodeVisitor	construct_check.py	/^from ast import parse, NodeVisitor, Name$/;"	i
+_NAMES	construct_check.py	/^_NAMES = {$/;"	v
+__init__	construct_check.py	/^    def __init__(self, disallow=()):$/;"	m	class:ExclusionChecker
+_report	construct_check.py	/^    def _report(self, node, msg=None):$/;"	m	class:ExclusionChecker
+add_interval	hw04.py	/^def add_interval(x, y):$/;"	f
+arm	hw04.py	/^def arm(length, mobile_or_planet):$/;"	f
+balanced	hw04.py	/^def balanced(m):$/;"	f
+branches	hw04.py	/^def branches(tree):$/;"	f
+check	construct_check.py	/^    def check(self, source_file, checked_funcs, disallow=None, source=None):$/;"	m	class:ExclusionChecker
+check	construct_check.py	/^def check(source_file, checked_funcs, disallow, source=None):$/;"	f
+check_par	hw04.py	/^def check_par():$/;"	f
+copy_tree	hw04.py	/^def copy_tree(t):$/;"	f
+div_interval	hw04.py	/^def div_interval(x, y):$/;"	f
+end	hw04.py	/^def end(s):$/;"	f
+errors	construct_check.py	/^    def errors(self):$/;"	m	class:ExclusionChecker
+examples	hw04.py	/^def examples():$/;"	f
+generic_visit	construct_check.py	/^    def generic_visit(self, node):$/;"	m	class:ExclusionChecker
+has_path	hw04.py	/^def has_path(t, phrase):$/;"	f
+interval	hw04.py	/^def interval(a, b):$/;"	f
+is_arm	hw04.py	/^def is_arm(s):$/;"	f
+is_leaf	hw04.py	/^def is_leaf(tree):$/;"	f
+is_mobile	hw04.py	/^def is_mobile(m):$/;"	f
+is_planet	hw04.py	/^def is_planet(w):$/;"	f
+is_tree	hw04.py	/^def is_tree(tree):$/;"	f
+label	hw04.py	/^def label(tree):$/;"	f
+left	hw04.py	/^def left(m):$/;"	f
+length	hw04.py	/^def length(s):$/;"	f
+lower_bound	hw04.py	/^def lower_bound(x):$/;"	f
+mobile	hw04.py	/^def mobile(left, right):$/;"	f
+mul_interval	hw04.py	/^def mul_interval(x, y):$/;"	f
+multiple_references_explanation	hw04.py	/^def multiple_references_explanation():$/;"	f
+par1	hw04.py	/^def par1(r1, r2):$/;"	f
+par2	hw04.py	/^def par2(r1, r2):$/;"	f
+parse	construct_check.py	/^from ast import parse, NodeVisitor, Name$/;"	i
+planet	hw04.py	/^def planet(size):$/;"	f
+preorder	hw04.py	/^def preorder(t):$/;"	f
+print_tree	hw04.py	/^def print_tree(t, indent=0):$/;"	f
+quadratic	hw04.py	/^def quadratic(x, a, b, c):$/;"	f
+re	hw04.py	/^import re$/;"	i
+replace_leaf	hw04.py	/^def replace_leaf(t, find_value, replace_value):$/;"	f
+right	hw04.py	/^def right(m):$/;"	f
+size	hw04.py	/^def size(w):$/;"	f
+str_interval	hw04.py	/^def str_interval(x):$/;"	f
+sub_interval	hw04.py	/^def sub_interval(x, y):$/;"	f
+test	tests/check_par.py	/^test = {$/;"	v
+test	tests/div_interval.py	/^test = {$/;"	v
+test	tests/interval.py	/^test = {$/;"	v
+test	tests/mul_interval.py	/^test = {$/;"	v
+test	tests/polynomial.py	/^test = {$/;"	v
+test	tests/quadratic.py	/^test = {$/;"	v
+test	tests/sub_interval.py	/^test = {$/;"	v
+total_weight	hw04.py	/^def total_weight(m):$/;"	f
+totals_tree	hw04.py	/^def totals_tree(m):$/;"	f
+tree	hw04.py	/^def tree(label, branches=[]):$/;"	f
+upper_bound	hw04.py	/^def upper_bound(x):$/;"	f
+visit_Call	construct_check.py	/^    def visit_Call(self, node):$/;"	m	class:ExclusionChecker
+visit_FunctionDef	construct_check.py	/^    def visit_FunctionDef(self, node):$/;"	m	class:ExclusionChecker
+visit_Module	construct_check.py	/^    def visit_Module(self, node):$/;"	m	class:ExclusionChecker
