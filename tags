@@ -1,0 +1,525 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ASSIGNMENT_ENDPOINT	project/hog/calc.py	/^ASSIGNMENT_ENDPOINT = "\/api\/v3\/assignment\/"$/;"	v
+AUTH_ENDPOINT	project/hog/calc.py	/^AUTH_ENDPOINT = "\/oauth\/authorize"$/;"	v
+BaconOkException	project/hog/calc.py	/^class BaconOkException(Exception):$/;"	c
+CLIENT_ID	project/hog/calc.py	/^CLIENT_ID = "hog-calc"$/;"	v
+CLIENT_SECRET	project/hog/calc.py	/^CLIENT_SECRET = "P0MeHIEDgrnTDIJ4sfOsH3rpIUQMoL0"$/;"	v
+CodeHandler	project/hog/calc.py	/^    class CodeHandler(http.server.BaseHTTPRequestHandler):$/;"	c	function:_get_code_via_browser
+DEFAULT_SERVER	project/hog/hog_gui.py	/^DEFAULT_SERVER = "https:\/\/hog.cs61a.org"$/;"	v
+ENDPOINT	project/hog/calc.py	/^ENDPOINT = "https:\/\/hog-calc.apps.cs61a.org\/api\/compare_strategies"$/;"	v
+ERROR_ENDPOINT	project/hog/calc.py	/^ERROR_ENDPOINT = "\/oauth\/errors"$/;"	v
+ExclusionChecker	homework/hw02/construct_check.py	/^class ExclusionChecker(NodeVisitor):$/;"	c
+ExclusionChecker	homework/hw03/construct_check.py	/^class ExclusionChecker(NodeVisitor):$/;"	c
+ExclusionChecker	homework/hw04/construct_check.py	/^class ExclusionChecker(NodeVisitor):$/;"	c
+ExclusionChecker	lab/lab03/construct_check.py	/^class ExclusionChecker(NodeVisitor):$/;"	c
+ExclusionChecker	lab/lab04/construct_check.py	/^class ExclusionChecker(NodeVisitor):$/;"	c
+ExclusionChecker	lab/lab05/construct_check.py	/^class ExclusionChecker(NodeVisitor):$/;"	c
+ExclusionChecker	lab/lab06/construct_check.py	/^class ExclusionChecker(NodeVisitor):$/;"	c
+Flask	project/hog/gui_files/common_server.py	/^    from flask import Flask, request, jsonify, send_from_directory$/;"	i
+GOAL_SCORE	project/hog/hog.py	/^GOAL_SCORE = 100  # The goal of Hog is to score 100 points.$/;"	v
+GOAL_SCORE	project/hog/tests/check_strategy.py	/^from hog import GOAL_SCORE$/;"	i
+GUI_FOLDER	project/hog/hog_gui.py	/^GUI_FOLDER = "gui_files\/"$/;"	v
+HTTPServer	project/hog/gui_files/common_server.py	/^from http.server import HTTPServer$/;"	i
+HTTPStatus	project/hog/gui_files/common_server.py	/^from http import HTTPStatus, server$/;"	i
+HW_SOURCE_FILE	homework/hw02/hw02.py	/^HW_SOURCE_FILE=__file__$/;"	v
+HW_SOURCE_FILE	homework/hw03/hw03.py	/^HW_SOURCE_FILE = __file__$/;"	v
+HW_SOURCE_FILE	homework/hw04/hw04.py	/^HW_SOURCE_FILE=__file__$/;"	v
+HW_SOURCE_FILE	lab/lab03/lab03.py	/^HW_SOURCE_FILE=__file__$/;"	v
+Handler	project/hog/gui_files/common_server.py	/^class Handler(server.BaseHTTPRequestHandler):$/;"	c
+HogLoggingException	project/hog/hog_gui.py	/^class HogLoggingException(Exception):$/;"	c
+INFO_ENDPOINT	project/hog/calc.py	/^INFO_ENDPOINT = "\/api\/v3\/user\/"$/;"	v
+LAB_SOURCE_FILE	lab/lab04/lab04.py	/^LAB_SOURCE_FILE = __file__$/;"	v
+N	project/hog/hog.py	/^from tkinter import N$/;"	i
+Name	homework/hw02/construct_check.py	/^from ast import parse, NodeVisitor, Name$/;"	i
+Name	homework/hw03/construct_check.py	/^from ast import parse, NodeVisitor, Name$/;"	i
+Name	homework/hw04/construct_check.py	/^from ast import parse, NodeVisitor, Name$/;"	i
+Name	lab/lab03/construct_check.py	/^from ast import parse, NodeVisitor, Name$/;"	i
+Name	lab/lab04/construct_check.py	/^from ast import parse, NodeVisitor, Name$/;"	i
+Name	lab/lab05/construct_check.py	/^from ast import parse, NodeVisitor, Name$/;"	i
+Name	lab/lab06/construct_check.py	/^from ast import parse, NodeVisitor, Name$/;"	i
+NodeVisitor	homework/hw02/construct_check.py	/^from ast import parse, NodeVisitor, Name$/;"	i
+NodeVisitor	homework/hw03/construct_check.py	/^from ast import parse, NodeVisitor, Name$/;"	i
+NodeVisitor	homework/hw04/construct_check.py	/^from ast import parse, NodeVisitor, Name$/;"	i
+NodeVisitor	lab/lab03/construct_check.py	/^from ast import parse, NodeVisitor, Name$/;"	i
+NodeVisitor	lab/lab04/construct_check.py	/^from ast import parse, NodeVisitor, Name$/;"	i
+NodeVisitor	lab/lab05/construct_check.py	/^from ast import parse, NodeVisitor, Name$/;"	i
+NodeVisitor	lab/lab06/construct_check.py	/^from ast import parse, NodeVisitor, Name$/;"	i
+OAUTH_SCOPE	project/hog/calc.py	/^OAUTH_SCOPE = "email"$/;"	v
+OAuthException	project/hog/calc.py	/^class OAuthException(BaconOkException):$/;"	c
+OAuthSession	project/hog/calc.py	/^class OAuthSession:$/;"	c
+OK_SERVER_URL	project/hog/calc.py	/^OK_SERVER_URL = "https:\/\/okpy.org"$/;"	v
+Object	project/hog/gui_files/static/js/runtime-main.71e877b4.js	/^!function(e){function r(r){for(var n,i,l=r[0],f=r[1],a=r[2],c=0,s=[];c<l.length;c++)i=l[c],Object.prototype.hasOwnProperty.call(o,i)&&o[i]&&s.push(o[i][0]),o[i]=0;for(n in f)Object.prototype.hasOwnProperty.call(f,n)&&(e[n]=f[n]);for(p&&p(r);s.length;)s.shift()();return u.push.apply(u,a||[]),t()}function t(){for(var e,r=0;r<u.length;r++){for(var t=u[r],n=!0,l=1;l<t.length;l++){var f=t[l];0!==o[f]&&(n=!1)}n&&(u.splice(r--,1),e=i(i.s=t[0]))}return e}var n={},o={1:0},u=[];function i(r){if(n[r])return n[r].exports;var t=n[r]={i:r,l:!1,exports:{}};return e[r].call(t.exports,t,t.exports,i),t.l=!0,t.exports}i.m=e,i.c=n,i.d=function(e,r,t){i.o(e,r)||Object.defineProperty(e,r,{enumerable:!0,get:t})},i.r=function(e){"undefined"!==typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},i.t=function(e,r){if(1&r&&(e=i(e)),8&r)return e;if(4&r&&"object"===typeof e&&e&&e.__esModule)return e;var t=Object.create(null);if(i.r(t),Object.defineProperty(t,"default",{enumerable:!0,value:e}),2&r&&"string"!=typeof e)for(var n in e)i.d(t,n,function(r){return e[r]}.bind(null,n));return t},i.n=function(e){var r=e&&e.__esModule?function(){return e.default}:function(){return e};return i.d(r,"a",r),r},i.o=function(e,r){return Object.prototype.hasOwnProperty.call(e,r)},i.p="\/";var l=this["webpackJsonphog-gui"]=this["webpackJsonphog-gui"]||[],f=l.push.bind(l);l.push=r,l=l.slice();for(var a=0;a<l.length;a++)r(l[a]);var p=f;t()}([]);$/;"	c
+Object.hasOwnProperty	project/hog/gui_files/static/js/runtime-main.71e877b4.js	/^!function(e){function r(r){for(var n,i,l=r[0],f=r[1],a=r[2],c=0,s=[];c<l.length;c++)i=l[c],Object.prototype.hasOwnProperty.call(o,i)&&o[i]&&s.push(o[i][0]),o[i]=0;for(n in f)Object.prototype.hasOwnProperty.call(f,n)&&(e[n]=f[n]);for(p&&p(r);s.length;)s.shift()();return u.push.apply(u,a||[]),t()}function t(){for(var e,r=0;r<u.length;r++){for(var t=u[r],n=!0,l=1;l<t.length;l++){var f=t[l];0!==o[f]&&(n=!1)}n&&(u.splice(r--,1),e=i(i.s=t[0]))}return e}var n={},o={1:0},u=[];function i(r){if(n[r])return n[r].exports;var t=n[r]={i:r,l:!1,exports:{}};return e[r].call(t.exports,t,t.exports,i),t.l=!0,t.exports}i.m=e,i.c=n,i.d=function(e,r,t){i.o(e,r)||Object.defineProperty(e,r,{enumerable:!0,get:t})},i.r=function(e){"undefined"!==typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},i.t=function(e,r){if(1&r&&(e=i(e)),8&r)return e;if(4&r&&"object"===typeof e&&e&&e.__esModule)return e;var t=Object.create(null);if(i.r(t),Object.defineProperty(t,"default",{enumerable:!0,value:e}),2&r&&"string"!=typeof e)for(var n in e)i.d(t,n,function(r){return e[r]}.bind(null,n));return t},i.n=function(e){var r=e&&e.__esModule?function(){return e.default}:function(){return e};return i.d(r,"a",r),r},i.o=function(e,r){return Object.prototype.hasOwnProperty.call(e,r)},i.p="\/";var l=this["webpackJsonphog-gui"]=this["webpackJsonphog-gui"]||[],f=l.push.bind(l);l.push=r,l=l.slice();for(var a=0;a<l.length;a++)r(l[a]);var p=f;t()}([]);$/;"	m
+PATHS	project/hog/gui_files/common_server.py	/^PATHS = {}$/;"	v
+PATHS	project/hog/hog_gui.py	/^PATHS = {}$/;"	v
+PORT	project/hog/hog_gui.py	/^PORT = 31415$/;"	v
+REDIRECT_HOST	project/hog/calc.py	/^REDIRECT_HOST = "127.0.0.1"$/;"	v
+REDIRECT_PORT	project/hog/calc.py	/^REDIRECT_PORT = 6265$/;"	v
+Request	project/hog/calc.py	/^from urllib.request import Request, urlopen$/;"	i
+Request	project/hog/gui_files/common_server.py	/^from urllib.request import Request, urlopen$/;"	i
+STRATEGY_0	project/hog/calc.py	/^STRATEGY_0 = hog.final_strategy$/;"	v
+STRATEGY_1	project/hog/calc.py	/^STRATEGY_1 = hog.always_roll(4)$/;"	v
+SUCCESS_ENDPOINT_URL	project/hog/calc.py	/^SUCCESS_ENDPOINT_URL = "https:\/\/okpy.org"  # temporary$/;"	v
+TIMEOUT	project/hog/calc.py	/^TIMEOUT = 10$/;"	v
+TOKEN_ENDPOINT	project/hog/calc.py	/^TOKEN_ENDPOINT = "\/oauth\/token"$/;"	v
+_NAMES	homework/hw02/construct_check.py	/^_NAMES = {$/;"	v
+_NAMES	homework/hw03/construct_check.py	/^_NAMES = {$/;"	v
+_NAMES	homework/hw04/construct_check.py	/^_NAMES = {$/;"	v
+_NAMES	lab/lab03/construct_check.py	/^_NAMES = {$/;"	v
+_NAMES	lab/lab04/construct_check.py	/^_NAMES = {$/;"	v
+_NAMES	lab/lab05/construct_check.py	/^_NAMES = {$/;"	v
+_NAMES	lab/lab06/construct_check.py	/^_NAMES = {$/;"	v
+_PREFIX	project/hog/ucb.py	/^_PREFIX = ''$/;"	v
+____________	lab/lab07/lab07.py	/^        def ____________(__________):$/;"	f	function:make_advanced_counter_maker.____________	file:
+____________	lab/lab07/lab07.py	/^    def ____________(__________):$/;"	f	function:make_advanced_counter_maker	file:
+__init__	homework/hw02/construct_check.py	/^    def __init__(self, disallow=()):$/;"	m	class:ExclusionChecker
+__init__	homework/hw03/construct_check.py	/^    def __init__(self, disallow=()):$/;"	m	class:ExclusionChecker
+__init__	homework/hw04/construct_check.py	/^    def __init__(self, disallow=()):$/;"	m	class:ExclusionChecker
+__init__	lab/lab03/construct_check.py	/^    def __init__(self, disallow=()):$/;"	m	class:ExclusionChecker
+__init__	lab/lab04/construct_check.py	/^    def __init__(self, disallow=()):$/;"	m	class:ExclusionChecker
+__init__	lab/lab05/construct_check.py	/^    def __init__(self, disallow=()):$/;"	m	class:ExclusionChecker
+__init__	lab/lab06/construct_check.py	/^    def __init__(self, disallow=()):$/;"	m	class:ExclusionChecker
+__init__	project/hog/calc.py	/^    def __init__(self, access_token="", refresh_token="", expires_at=-1, session=None):$/;"	m	class:OAuthSession
+__init__	project/hog/calc.py	/^    def __init__(self, error="", error_description=""):$/;"	m	class:OAuthException
+__main__	project/hog/gui_files/common_server.py	/^    import __main__$/;"	i
+_get_code	project/hog/calc.py	/^def _get_code():$/;"	f
+_get_code_via_browser	project/hog/calc.py	/^def _get_code_via_browser(redirect_uri, host_name, port_number):$/;"	f
+_make_code_post	project/hog/calc.py	/^def _make_code_post(server, code, redirect_uri):$/;"	f
+_make_token_post	project/hog/calc.py	/^def _make_token_post(server, data):$/;"	f
+_pick_free_port	project/hog/calc.py	/^def _pick_free_port(hostname=REDIRECT_HOST, port=0):$/;"	f
+_report	homework/hw02/construct_check.py	/^    def _report(self, node, msg=None):$/;"	m	class:ExclusionChecker
+_report	homework/hw03/construct_check.py	/^    def _report(self, node, msg=None):$/;"	m	class:ExclusionChecker
+_report	homework/hw04/construct_check.py	/^    def _report(self, node, msg=None):$/;"	m	class:ExclusionChecker
+_report	lab/lab03/construct_check.py	/^    def _report(self, node, msg=None):$/;"	m	class:ExclusionChecker
+_report	lab/lab04/construct_check.py	/^    def _report(self, node, msg=None):$/;"	m	class:ExclusionChecker
+_report	lab/lab05/construct_check.py	/^    def _report(self, node, msg=None):$/;"	m	class:ExclusionChecker
+_report	lab/lab06/construct_check.py	/^    def _report(self, node, msg=None):$/;"	m	class:ExclusionChecker
+a_plus_abs_b	homework/hw01/hw01.py	/^def a_plus_abs_b(a, b):$/;"	f
+accumulate	homework/hw02/hw02.py	/^def accumulate(combiner, base, n, term):$/;"	f
+add	homework/hw01/hw01.py	/^from operator import add, sub$/;"	i
+add	homework/hw02/hw02.py	/^from operator import add, mul, sub$/;"	i
+add_chars	lab/lab04/lab04.py	/^def add_chars(w1, w2):$/;"	f
+add_charset	lab/lab04/lab04.py	/^from email.charset import add_charset$/;"	i
+add_church	homework/hw02/hw02.py	/^def add_church(m, n):$/;"	f
+add_interval	homework/hw04/hw04.py	/^def add_interval(x, y):$/;"	f
+add_trees	lab/lab05/lab05.py	/^def add_trees(t1, t2):$/;"	f
+addone	homework/hw02/hw02.py	/^    def addone(x):$/;"	f	function:church_to_int
+all_nums	tests.py	/^def all_nums(k):$/;"	f
+always_roll	project/hog/hog.py	/^def always_roll(n):$/;"	f
+announce_highest	project/hog/hog.py	/^def announce_highest(who, last_score=0, running_high=0):$/;"	f
+announce_lead_changes	project/hog/hog.py	/^def announce_lead_changes(last_leader=None):$/;"	f
+argparse	project/hog/gui_files/common_server.py	/^import argparse$/;"	i
+argparse	project/hog/hog.py	/^    import argparse$/;"	i
+arm	homework/hw04/hw04.py	/^def arm(length, mobile_or_planet):$/;"	f
+auth	project/hog/calc.py	/^    def auth(self):$/;"	m	class:OAuthSession
+average_win_rate	project/hog/hog.py	/^def average_win_rate(strategy, baseline=always_roll(6)):$/;"	f
+averaged	project/hog/hog.py	/^    def averaged(*args):$/;"	f	function:make_averaged
+bacon_strategy	project/hog/hog.py	/^def bacon_strategy(score, opponent_score, cutoff=8, num_rolls=6):$/;"	f
+balanced	homework/hw04/hw04.py	/^def balanced(m):$/;"	f
+berry_finder	lab/lab05/lab05.py	/^def berry_finder(t):$/;"	f
+both	project/hog/hog.py	/^def both(f, g):$/;"	f
+both_paths	lab/lab02/lab02.py	/^def both_paths(sofar="S"):$/;"	f
+branches	homework/hw04/hw04.py	/^def branches(tree):$/;"	f
+branches	lab/lab05/lab05.py	/^def branches(tree):$/;"	f
+build_successors_table	lab/lab05/lab05.py	/^def build_successors_table(tokens):$/;"	f
+cascase	tests.py	/^def cascase(n):$/;"	f
+change_abstraction	lab/lab04/lab04.py	/^def change_abstraction(change):$/;"	f
+change_abstraction	lab/lab05/lab05.py	/^def change_abstraction(change):$/;"	f
+check	homework/hw02/construct_check.py	/^    def check(self, source_file, checked_funcs, disallow=None, source=None):$/;"	m	class:ExclusionChecker
+check	homework/hw02/construct_check.py	/^def check(source_file, checked_funcs, disallow, source=None):$/;"	f
+check	homework/hw03/construct_check.py	/^    def check(self, source_file, checked_funcs, disallow=None, source=None):$/;"	m	class:ExclusionChecker
+check	homework/hw03/construct_check.py	/^def check(source_file, checked_funcs, disallow, source=None):$/;"	f
+check	homework/hw04/construct_check.py	/^    def check(self, source_file, checked_funcs, disallow=None, source=None):$/;"	m	class:ExclusionChecker
+check	homework/hw04/construct_check.py	/^def check(source_file, checked_funcs, disallow, source=None):$/;"	f
+check	lab/lab03/construct_check.py	/^    def check(self, source_file, checked_funcs, disallow=None, source=None):$/;"	m	class:ExclusionChecker
+check	lab/lab03/construct_check.py	/^def check(source_file, checked_funcs, disallow, source=None):$/;"	f
+check	lab/lab04/construct_check.py	/^    def check(self, source_file, checked_funcs, disallow=None, source=None):$/;"	m	class:ExclusionChecker
+check	lab/lab04/construct_check.py	/^def check(source_file, checked_funcs, disallow, source=None):$/;"	f
+check	lab/lab05/construct_check.py	/^    def check(self, source_file, checked_funcs, disallow=None, source=None):$/;"	m	class:ExclusionChecker
+check	lab/lab05/construct_check.py	/^def check(source_file, checked_funcs, disallow, source=None):$/;"	f
+check	lab/lab06/construct_check.py	/^    def check(self, source_file, checked_funcs, disallow=None, source=None):$/;"	m	class:ExclusionChecker
+check	lab/lab06/construct_check.py	/^def check(source_file, checked_funcs, disallow, source=None):$/;"	f
+check_abstraction	lab/lab04/lab04.py	/^def check_abstraction():$/;"	f
+check_abstraction	lab/lab05/lab05.py	/^def check_abstraction():$/;"	f
+check_par	homework/hw04/hw04.py	/^def check_par():$/;"	f
+check_strategy	project/hog/tests/check_strategy.py	/^def check_strategy(strategy, goal=GOAL_SCORE):$/;"	f
+check_strategy_roll	project/hog/tests/check_strategy.py	/^def check_strategy_roll(score, opponent_score, num_rolls):$/;"	f
+church_to_int	homework/hw02/hw02.py	/^def church_to_int(n):$/;"	f
+closer_city	lab/lab04/lab04.py	/^def closer_city(lat, lon, city_a, city_b):$/;"	f
+cnt_conditon	lab/lab02/lab02.py	/^    def cnt_conditon(n):$/;"	f	function:count_cond
+code	project/hog/ucb.py	/^import code$/;"	i
+comment	project/hog/hog.py	/^    def comment(s0, s1):$/;"	f	function:announce_highest
+compose1	homework/hw02/hw02.py	/^def compose1(func1, func2):$/;"	f
+compose1	lab/lab02/lab02.py	/^def compose1(f, g):$/;"	f
+compose1	lab/lab03/lab03.py	/^def compose1(f, g):$/;"	f
+composer	homework/hw03/hw03.py	/^def composer(func=lambda x: x):$/;"	f
+composite_identity	lab/lab02/lab02.py	/^def composite_identity(f, g):$/;"	f
+cond	homework/hw01/hw01.py	/^def cond():$/;"	f
+construct_sent	lab/lab05/lab05.py	/^def construct_sent(word, table):$/;"	f
+coords	lab/lab05/lab05.py	/^def coords(fn, seq, lower, upper):$/;"	f
+copy_tree	homework/hw04/hw04.py	/^def copy_tree(t):$/;"	f
+copy_tree	lab/lab05/lab05.py	/^def copy_tree(t):$/;"	f
+count_change	homework/hw03/hw03.py	/^def count_change(total):$/;"	f
+count_cond	lab/lab02/lab02.py	/^def count_cond(condition):$/;"	f
+cs61a	lab/lab07/lab07.py	/^cs61a = {$/;"	v
+cycle	lab/lab02/lab02.py	/^def cycle(f1, f2, f3):$/;"	f
+describe_game	project/hog/tests/play_utils.py	/^def describe_game(hog, hog_gui, test_number, score0, score1, goal, feral_hogs):$/;"	f
+dice	project/hog/dice.py	/^    def dice():$/;"	f	function:make_fair_dice
+dice	project/hog/dice.py	/^    def dice():$/;"	f	function:make_test_dice
+dice	project/hog/hog_gui.py	/^import dice$/;"	i
+dice	project/hog/tests/play_utils.py	/^    def dice():$/;"	f	function:get_dice
+distance	lab/lab04/lab04.py	/^def distance(city_a, city_b):$/;"	f
+div_interval	homework/hw04/hw04.py	/^def div_interval(x, y):$/;"	f
+do_GET	project/hog/calc.py	/^        def do_GET(self):$/;"	m	class:_get_code_via_browser.CodeHandler
+do_GET	project/hog/gui_files/common_server.py	/^    def do_GET(self):$/;"	m	class:Handler
+do_POST	project/hog/gui_files/common_server.py	/^    def do_POST(self):$/;"	m	class:Handler
+double_eights	lab/lab01/lab01.py	/^def double_eights(n):$/;"	f
+down	lab/lab02/lab02.py	/^    def down():$/;"	f	function:both_paths
+end	homework/hw04/hw04.py	/^def end(s):$/;"	f
+errors	homework/hw02/construct_check.py	/^    def errors(self):$/;"	m	class:ExclusionChecker
+errors	homework/hw03/construct_check.py	/^    def errors(self):$/;"	m	class:ExclusionChecker
+errors	homework/hw04/construct_check.py	/^    def errors(self):$/;"	m	class:ExclusionChecker
+errors	lab/lab03/construct_check.py	/^    def errors(self):$/;"	m	class:ExclusionChecker
+errors	lab/lab04/construct_check.py	/^    def errors(self):$/;"	m	class:ExclusionChecker
+errors	lab/lab05/construct_check.py	/^    def errors(self):$/;"	m	class:ExclusionChecker
+errors	lab/lab06/construct_check.py	/^    def errors(self):$/;"	m	class:ExclusionChecker
+examples	homework/hw04/hw04.py	/^def examples():$/;"	f
+export	project/hog/calc.py	/^def export(strategy):$/;"	f
+f	homework/hw02/hw02.py	/^    def f(x):$/;"	f	function:compose1
+f	homework/hw04/hw04.py	/^    def f(m):$/;"	f	function:quadratic
+f	tests.py	/^def f(a, b):$/;"	f
+f_then_g	tests.py	/^def f_then_g(f, g, n):$/;"	f
+falling	lab/lab01/lab01.py	/^def falling(n, k):$/;"	f
+false_func	homework/hw01/hw01.py	/^def false_func():$/;"	f
+final_strategy	project/hog/hog.py	/^def final_strategy(score, opponent_score, cutoff=5, nums_roll=6):$/;"	f
+fir	tests.py	/^def fir():$/;"	f
+forward_to_server	project/hog/gui_files/common_server.py	/^def forward_to_server(data, send):$/;"	f
+four_sided	project/hog/dice.py	/^four_sided = make_fair_dice(4)$/;"	v
+four_sided	project/hog/hog.py	/^from dice import six_sided, four_sided, make_test_dice$/;"	i
+free_bacon	project/hog/hog.py	/^def free_bacon(score):$/;"	f
+func_adder	homework/hw03/hw03.py	/^    def func_adder(g):$/;"	f	function:composer
+functools	project/hog/ucb.py	/^import functools$/;"	i
+g	homework/hw03/hw03.py	/^def g(n):$/;"	f
+g_iter	homework/hw03/hw03.py	/^def g_iter(n):$/;"	f
+generic_visit	homework/hw02/construct_check.py	/^    def generic_visit(self, node):$/;"	m	class:ExclusionChecker
+generic_visit	homework/hw03/construct_check.py	/^    def generic_visit(self, node):$/;"	m	class:ExclusionChecker
+generic_visit	homework/hw04/construct_check.py	/^    def generic_visit(self, node):$/;"	m	class:ExclusionChecker
+generic_visit	lab/lab03/construct_check.py	/^    def generic_visit(self, node):$/;"	m	class:ExclusionChecker
+generic_visit	lab/lab04/construct_check.py	/^    def generic_visit(self, node):$/;"	m	class:ExclusionChecker
+generic_visit	lab/lab05/construct_check.py	/^    def generic_visit(self, node):$/;"	m	class:ExclusionChecker
+generic_visit	lab/lab06/construct_check.py	/^    def generic_visit(self, node):$/;"	m	class:ExclusionChecker
+get	tests.py	/^        def get(k2):$/;"	f	function:lens.put
+get_dice	project/hog/tests/play_utils.py	/^def get_dice(seed):$/;"	f
+get_lat	lab/lab04/lab04.py	/^def get_lat(city):$/;"	f
+get_lon	lab/lab04/lab04.py	/^def get_lon(city):$/;"	f
+get_name	lab/lab04/lab04.py	/^def get_name(city):$/;"	f
+grow	tests.py	/^grow = lambda n: f_then_g(grow, print, n \/\/ 10)$/;"	v
+h	homework/hw03/hw03.py	/^        def h(x): return func(g(x))$/;"	f	function:composer.func_adder
+h	lab/lab03/lab03.py	/^    def h(x):$/;"	f	function:compose1
+hailstone	homework/hw01/hw01.py	/^def hailstone(x):$/;"	f
+handler	project/hog/ucb.py	/^    def handler(signum, frame):$/;"	f	function:interact
+has_path	homework/hw04/hw04.py	/^def has_path(t, phrase):$/;"	f
+help	tests.py	/^    def help(k, prefix):$/;"	f	function:all_nums
+help	tests.py	/^def help(k):$/;"	f
+helper	homework/hw03/hw03.py	/^    def helper(n, m):$/;"	f	function:count_change
+helper	lab/lab03/lab03.py	/^    def helper(i, state, direc):$/;"	f	function:pingpong
+helper	tests.py	/^    def helper(i, state, direc):$/;"	f	function:pq
+hog	project/hog/calc.py	/^import hog$/;"	i
+hog	project/hog/hog_gui.py	/^import hog$/;"	i
+http	project/hog/calc.py	/^import http.server$/;"	i
+httpd	project/hog/calc.py	/^        httpd = http.server.HTTPServer(server_address, CodeHandler)$/;"	v	class:_get_code_via_browser.CodeHandler
+identity	homework/hw02/hw02.py	/^identity = lambda x: x$/;"	v
+if_function	homework/hw01/hw01.py	/^def if_function(condition, true_result, false_result):$/;"	f
+inc_subseqs	lab/lab07/lab07.py	/^def inc_subseqs(s):$/;"	f
+increment	homework/hw02/hw02.py	/^increment = lambda x: x + 1$/;"	v
+index	project/hog/gui_files/common_server.py	/^    def index():$/;"	f	function:start_server
+insert_into_all	lab/lab07/lab07.py	/^def insert_into_all(item, nested_list):$/;"	f
+insert_items	lab/lab06/lab06.py	/^def insert_items(lst, entry, elem):$/;"	f
+inspect	project/hog/ucb.py	/^import inspect$/;"	i
+interact	project/hog/hog.py	/^from ucb import main, trace, interact$/;"	i
+interact	project/hog/ucb.py	/^def interact(msg=None):$/;"	f
+interval	homework/hw04/hw04.py	/^def interval(a, b):$/;"	f
+inverse	tests.py	/^def inverse(f):$/;"	f
+inverse_cascade	tests.py	/^def inverse_cascade(n):$/;"	f
+io	project/hog/hog_gui.py	/^import io$/;"	i
+is_arm	homework/hw04/hw04.py	/^def is_arm(s):$/;"	f
+is_leaf	homework/hw04/hw04.py	/^def is_leaf(tree):$/;"	f
+is_leaf	lab/lab05/lab05.py	/^def is_leaf(tree):$/;"	f
+is_mobile	homework/hw04/hw04.py	/^def is_mobile(m):$/;"	f
+is_planet	homework/hw04/hw04.py	/^def is_planet(w):$/;"	f
+is_swap	project/hog/hog.py	/^def is_swap(player_score, opponent_score):$/;"	f
+is_tree	homework/hw04/hw04.py	/^def is_tree(tree):$/;"	f
+is_tree	lab/lab05/lab05.py	/^def is_tree(tree):$/;"	f
+json	project/hog/calc.py	/^import json$/;"	i
+json	project/hog/gui_files/common_server.py	/^import json$/;"	i
+jsonify	project/hog/gui_files/common_server.py	/^    from flask import Flask, request, jsonify, send_from_directory$/;"	i
+label	homework/hw04/hw04.py	/^def label(tree):$/;"	f
+label	lab/lab05/lab05.py	/^def label(tree):$/;"	f
+lambda_curry2	lab/lab02/lab02.py	/^def lambda_curry2(func):$/;"	f
+largest_factor	homework/hw01/hw01.py	/^def largest_factor(x):$/;"	f
+left	homework/hw04/hw04.py	/^def left(m):$/;"	f
+length	homework/hw04/hw04.py	/^def length(s):$/;"	f
+lens	tests.py	/^def lens(prev=lambda x: 0):$/;"	f
+log	project/hog/calc.py	/^log = logging.getLogger(__name__)$/;"	v
+log	project/hog/hog_gui.py	/^    def log(*logged_scores):$/;"	f	function:take_turn
+log	project/hog/ucb.py	/^def log(message):$/;"	f
+log_current_line	project/hog/ucb.py	/^def log_current_line():$/;"	f
+log_message	project/hog/calc.py	/^        def log_message(self, format, *args):$/;"	m	class:_get_code_via_browser.CodeHandler
+log_message	project/hog/gui_files/common_server.py	/^    def log_message(self, *args, **kwargs):$/;"	m	class:Handler
+logged_dice	project/hog/hog_gui.py	/^    def logged_dice():$/;"	f	function:take_turn
+logging	project/hog/calc.py	/^import logging$/;"	i
+lower_bound	homework/hw04/hw04.py	/^def lower_bound(x):$/;"	f
+luhn_sum	tests.py	/^def luhn_sum(n):$/;"	f
+luhn_sum_double	tests.py	/^def luhn_sum_double(n):$/;"	f
+main	project/hog/calc.py	/^def main():$/;"	f
+main	project/hog/hog.py	/^from ucb import main, trace, interact$/;"	i
+main	project/hog/ucb.py	/^def main(fn):$/;"	f
+make_adder_inc	lab/lab06/lab06.py	/^def make_adder_inc(a):$/;"	f
+make_advanced_counter_maker	lab/lab07/lab07.py	/^def make_advanced_counter_maker():$/;"	f
+make_anonymous_factorial	homework/hw03/hw03.py	/^def make_anonymous_factorial():$/;"	f
+make_averaged	project/hog/hog.py	/^def make_averaged(original_function, trials_count=1000):$/;"	f
+make_city	lab/lab04/lab04.py	/^def make_city(name, lat, lon):$/;"	f
+make_fair_dice	project/hog/dice.py	/^def make_fair_dice(sides):$/;"	f
+make_fib	lab/lab06/lab06.py	/^def make_fib():$/;"	f
+make_glookup	lab/lab07/lab07.py	/^def make_glookup(class_assignments):$/;"	f
+make_repeater	homework/hw02/hw02.py	/^def make_repeater(func, n):$/;"	f
+make_test_dice	project/hog/dice.py	/^def make_test_dice(*outcomes):$/;"	f
+make_test_dice	project/hog/hog.py	/^from dice import six_sided, four_sided, make_test_dice$/;"	i
+make_withdraw	tests.py	/^def make_withdraw(bal):$/;"	f
+max_scoring_num_rolls	project/hog/hog.py	/^def max_scoring_num_rolls(dice=six_sided, trials_count=1000):$/;"	f
+missing_digits	homework/hw03/hw03.py	/^def missing_digits(n):$/;"	f
+mobile	homework/hw04/hw04.py	/^def mobile(left, right):$/;"	f
+mod_dice	project/hog/hog_gui.py	/^    def mod_dice():$/;"	f	function:trace_play
+mod_strategy	project/hog/hog_gui.py	/^    def mod_strategy(who, my_score, opponent_score):$/;"	f	function:trace_play
+move_stack	homework/hw03/hw03.py	/^def move_stack(n, start, end):$/;"	f
+mul	homework/hw02/hw02.py	/^from operator import add, mul, sub$/;"	i
+mul	homework/hw03/hw03.py	/^from operator import sub, mul$/;"	i
+mul_church	homework/hw02/hw02.py	/^def mul_church(m, n):$/;"	f
+mul_interval	homework/hw04/hw04.py	/^def mul_interval(x, y):$/;"	f
+multiplayer_post	project/hog/gui_files/common_server.py	/^def multiplayer_post(path, data, server_url=None):$/;"	f
+multiplayer_route	project/hog/gui_files/common_server.py	/^def multiplayer_route(path, server_path=None):$/;"	f
+multiple_references_explanation	homework/hw04/hw04.py	/^def multiple_references_explanation():$/;"	f
+n	project/hog/gui_files/static/js/runtime-main.71e877b4.js	/^!function(e){function r(r){for(var n,i,l=r[0],f=r[1],a=r[2],c=0,s=[];c<l.length;c++)i=l[c],Object.prototype.hasOwnProperty.call(o,i)&&o[i]&&s.push(o[i][0]),o[i]=0;for(n in f)Object.prototype.hasOwnProperty.call(f,n)&&(e[n]=f[n]);for(p&&p(r);s.length;)s.shift()();return u.push.apply(u,a||[]),t()}function t(){for(var e,r=0;r<u.length;r++){for(var t=u[r],n=!0,l=1;l<t.length;l++){var f=t[l];0!==o[f]&&(n=!1)}n&&(u.splice(r--,1),e=i(i.s=t[0]))}return e}var n={},o={1:0},u=[];function i(r){if(n[r])return n[r].exports;var t=n[r]={i:r,l:!1,exports:{}};return e[r].call(t.exports,t,t.exports,i),t.l=!0,t.exports}i.m=e,i.c=n,i.d=function(e,r,t){i.o(e,r)||Object.defineProperty(e,r,{enumerable:!0,get:t})},i.r=function(e){"undefined"!==typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},i.t=function(e,r){if(1&r&&(e=i(e)),8&r)return e;if(4&r&&"object"===typeof e&&e&&e.__esModule)return e;var t=Object.create(null);if(i.r(t),Object.defineProperty(t,"default",{enumerable:!0,value:e}),2&r&&"string"!=typeof e)for(var n in e)i.d(t,n,function(r){return e[r]}.bind(null,n));return t},i.n=function(e){var r=e&&e.__esModule?function(){return e.default}:function(){return e};return i.d(r,"a",r),r},i.o=function(e,r){return Object.prototype.hasOwnProperty.call(e,r)},i.p="\/";var l=this["webpackJsonphog-gui"]=this["webpackJsonphog-gui"]||[],f=l.push.bind(l);l.push=r,l=l.slice();for(var a=0;a<l.length;a++)r(l[a]);var p=f;t()}([]);$/;"	f
+n_cycle	lab/lab02/lab02.py	/^    def n_cycle(n):$/;"	f	function:cycle
+new_commentary	project/hog/hog_gui.py	/^    def new_commentary(*args, **kwargs):$/;"	f	function:safe
+num_eights	lab/lab03/lab03.py	/^def num_eights(x):$/;"	f
+num_eights	tests.py	/^def num_eights(n):$/;"	f
+num_partition	tests.py	/^def num_partition(n, m):$/;"	f
+num_trees	lab/lab07/lab07.py	/^def num_trees(n):$/;"	f
+o	project/hog/gui_files/static/js/runtime-main.71e877b4.js	/^!function(e){function r(r){for(var n,i,l=r[0],f=r[1],a=r[2],c=0,s=[];c<l.length;c++)i=l[c],Object.prototype.hasOwnProperty.call(o,i)&&o[i]&&s.push(o[i][0]),o[i]=0;for(n in f)Object.prototype.hasOwnProperty.call(f,n)&&(e[n]=f[n]);for(p&&p(r);s.length;)s.shift()();return u.push.apply(u,a||[]),t()}function t(){for(var e,r=0;r<u.length;r++){for(var t=u[r],n=!0,l=1;l<t.length;l++){var f=t[l];0!==o[f]&&(n=!1)}n&&(u.splice(r--,1),e=i(i.s=t[0]))}return e}var n={},o={1:0},u=[];function i(r){if(n[r])return n[r].exports;var t=n[r]={i:r,l:!1,exports:{}};return e[r].call(t.exports,t,t.exports,i),t.l=!0,t.exports}i.m=e,i.c=n,i.d=function(e,r,t){i.o(e,r)||Object.defineProperty(e,r,{enumerable:!0,get:t})},i.r=function(e){"undefined"!==typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},i.t=function(e,r){if(1&r&&(e=i(e)),8&r)return e;if(4&r&&"object"===typeof e&&e&&e.__esModule)return e;var t=Object.create(null);if(i.r(t),Object.defineProperty(t,"default",{enumerable:!0,value:e}),2&r&&"string"!=typeof e)for(var n in e)i.d(t,n,function(r){return e[r]}.bind(null,n));return t},i.n=function(e){var r=e&&e.__esModule?function(){return e.default}:function(){return e};return i.d(r,"a",r),r},i.o=function(e,r){return Object.prototype.hasOwnProperty.call(e,r)},i.p="\/";var l=this["webpackJsonphog-gui"]=this["webpackJsonphog-gui"]||[],f=l.push.bind(l);l.push=r,l=l.slice();for(var a=0;a<l.length;a++)r(l[a]);var p=f;t()}([]);$/;"	f
+one	homework/hw02/hw02.py	/^def one(f):$/;"	f
+os	lab/lab05/lab05.py	/^    import os$/;"	i
+os	project/hog/gui_files/common_server.py	/^import os$/;"	i
+os	project/hog/hog_gui.py	/^import os$/;"	i
+other	project/hog/hog.py	/^def other(who):$/;"	f
+par1	homework/hw04/hw04.py	/^def par1(r1, r2):$/;"	f
+par2	homework/hw04/hw04.py	/^def par2(r1, r2):$/;"	f
+parse	homework/hw02/construct_check.py	/^from ast import parse, NodeVisitor, Name$/;"	i
+parse	homework/hw03/construct_check.py	/^from ast import parse, NodeVisitor, Name$/;"	i
+parse	homework/hw04/construct_check.py	/^from ast import parse, NodeVisitor, Name$/;"	i
+parse	lab/lab03/construct_check.py	/^from ast import parse, NodeVisitor, Name$/;"	i
+parse	lab/lab04/construct_check.py	/^from ast import parse, NodeVisitor, Name$/;"	i
+parse	lab/lab05/construct_check.py	/^from ast import parse, NodeVisitor, Name$/;"	i
+parse	lab/lab06/construct_check.py	/^from ast import parse, NodeVisitor, Name$/;"	i
+parse_qsl	project/hog/calc.py	/^from urllib.parse import parse_qsl, urlencode, urlparse$/;"	i
+pascal	lab/lab03/lab03.py	/^def pascal(row, column):$/;"	f
+pingpong	lab/lab03/lab03.py	/^def pingpong(n):$/;"	f
+planet	homework/hw04/hw04.py	/^def planet(size):$/;"	f
+play	project/hog/hog.py	/^def play(strategy0, strategy1, score0=0, score1=0, dice=six_sided,$/;"	f
+pow_church	homework/hw02/hw02.py	/^def pow_church(m, n):$/;"	f
+pq	tests.py	/^def pq(k):$/;"	f
+preorder	homework/hw04/hw04.py	/^def preorder(t):$/;"	f
+print_function	project/hog/ucb.py	/^from __future__ import print_function$/;"	i
+print_move	homework/hw03/hw03.py	/^def print_move(origin, destination):$/;"	f
+print_tree	homework/hw04/hw04.py	/^def print_tree(t, indent=0):$/;"	f
+print_tree	lab/lab05/lab05.py	/^def print_tree(t, indent=0):$/;"	f
+product	homework/hw02/hw02.py	/^def product(n, term):$/;"	f
+product_using_accumulate	homework/hw02/hw02.py	/^def product_using_accumulate(n, term):$/;"	f
+put	tests.py	/^    def put(k, v):$/;"	f	function:lens
+quadratic	homework/hw04/hw04.py	/^def quadratic(x, a, b, c):$/;"	f
+r	project/hog/gui_files/static/js/runtime-main.71e877b4.js	/^!function(e){function r(r){for(var n,i,l=r[0],f=r[1],a=r[2],c=0,s=[];c<l.length;c++)i=l[c],Object.prototype.hasOwnProperty.call(o,i)&&o[i]&&s.push(o[i][0]),o[i]=0;for(n in f)Object.prototype.hasOwnProperty.call(f,n)&&(e[n]=f[n]);for(p&&p(r);s.length;)s.shift()();return u.push.apply(u,a||[]),t()}function t(){for(var e,r=0;r<u.length;r++){for(var t=u[r],n=!0,l=1;l<t.length;l++){var f=t[l];0!==o[f]&&(n=!1)}n&&(u.splice(r--,1),e=i(i.s=t[0]))}return e}var n={},o={1:0},u=[];function i(r){if(n[r])return n[r].exports;var t=n[r]={i:r,l:!1,exports:{}};return e[r].call(t.exports,t,t.exports,i),t.l=!0,t.exports}i.m=e,i.c=n,i.d=function(e,r,t){i.o(e,r)||Object.defineProperty(e,r,{enumerable:!0,get:t})},i.r=function(e){"undefined"!==typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},i.t=function(e,r){if(1&r&&(e=i(e)),8&r)return e;if(4&r&&"object"===typeof e&&e&&e.__esModule)return e;var t=Object.create(null);if(i.r(t),Object.defineProperty(t,"default",{enumerable:!0,value:e}),2&r&&"string"!=typeof e)for(var n in e)i.d(t,n,function(r){return e[r]}.bind(null,n));return t},i.n=function(e){var r=e&&e.__esModule?function(){return e.default}:function(){return e};return i.d(r,"a",r),r},i.o=function(e,r){return Object.prototype.hasOwnProperty.call(e,r)},i.p="\/";var l=this["webpackJsonphog-gui"]=this["webpackJsonphog-gui"]||[],f=l.push.bind(l);l.push=r,l=l.slice();for(var a=0;a<l.length;a++)r(l[a]);var p=f;t()}([]);$/;"	f
+randint	project/hog/dice.py	/^from random import randint$/;"	i
+random	lab/lab05/lab05.py	/^    import random$/;"	i
+random	project/hog/tests/play_utils.py	/^import random$/;"	i
+random_sent	lab/lab05/lab05.py	/^def random_sent():$/;"	f
+random_strat	project/hog/tests/play_utils.py	/^    def random_strat(score, opponent_score):$/;"	f	function:random_strat
+random_strat	project/hog/tests/play_utils.py	/^def random_strat(seed):$/;"	f
+re	homework/hw04/hw04.py	/^import re$/;"	i
+re	project/hog/ucb.py	/^import re$/;"	i
+redirect_stdout	project/hog/hog_gui.py	/^from contextlib import redirect_stdout$/;"	i
+reduce	homework/hw03/hw03.py	/^    from functools import reduce$/;"	i
+repeated	lab/lab03/lab03.py	/^def repeated(f, n):$/;"	f
+replace_leaf	homework/hw04/hw04.py	/^def replace_leaf(t, find_value, replace_value):$/;"	f
+request	project/hog/gui_files/common_server.py	/^    from flask import Flask, request, jsonify, send_from_directory$/;"	i
+return	project/hog/gui_files/static/js/runtime-main.71e877b4.js	/^!function(e){function r(r){for(var n,i,l=r[0],f=r[1],a=r[2],c=0,s=[];c<l.length;c++)i=l[c],Object.prototype.hasOwnProperty.call(o,i)&&o[i]&&s.push(o[i][0]),o[i]=0;for(n in f)Object.prototype.hasOwnProperty.call(f,n)&&(e[n]=f[n]);for(p&&p(r);s.length;)s.shift()();return u.push.apply(u,a||[]),t()}function t(){for(var e,r=0;r<u.length;r++){for(var t=u[r],n=!0,l=1;l<t.length;l++){var f=t[l];0!==o[f]&&(n=!1)}n&&(u.splice(r--,1),e=i(i.s=t[0]))}return e}var n={},o={1:0},u=[];function i(r){if(n[r])return n[r].exports;var t=n[r]={i:r,l:!1,exports:{}};return e[r].call(t.exports,t,t.exports,i),t.l=!0,t.exports}i.m=e,i.c=n,i.d=function(e,r,t){i.o(e,r)||Object.defineProperty(e,r,{enumerable:!0,get:t})},i.r=function(e){"undefined"!==typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},i.t=function(e,r){if(1&r&&(e=i(e)),8&r)return e;if(4&r&&"object"===typeof e&&e&&e.__esModule)return e;var t=Object.create(null);if(i.r(t),Object.defineProperty(t,"default",{enumerable:!0,value:e}),2&r&&"string"!=typeof e)for(var n in e)i.d(t,n,function(r){return e[r]}.bind(null,n));return t},i.n=function(e){var r=e&&e.__esModule?function(){return e.default}:function(){return e};return i.d(r,"a",r),r},i.o=function(e,r){return Object.prototype.hasOwnProperty.call(e,r)},i.p="\/";var l=this["webpackJsonphog-gui"]=this["webpackJsonphog-gui"]||[],f=l.push.bind(l);l.push=r,l=l.slice();for(var a=0;a<l.length;a++)r(l[a]);var p=f;t()}([]);$/;"	c
+return.hasOwnProperty	project/hog/gui_files/static/js/runtime-main.71e877b4.js	/^!function(e){function r(r){for(var n,i,l=r[0],f=r[1],a=r[2],c=0,s=[];c<l.length;c++)i=l[c],Object.prototype.hasOwnProperty.call(o,i)&&o[i]&&s.push(o[i][0]),o[i]=0;for(n in f)Object.prototype.hasOwnProperty.call(f,n)&&(e[n]=f[n]);for(p&&p(r);s.length;)s.shift()();return u.push.apply(u,a||[]),t()}function t(){for(var e,r=0;r<u.length;r++){for(var t=u[r],n=!0,l=1;l<t.length;l++){var f=t[l];0!==o[f]&&(n=!1)}n&&(u.splice(r--,1),e=i(i.s=t[0]))}return e}var n={},o={1:0},u=[];function i(r){if(n[r])return n[r].exports;var t=n[r]={i:r,l:!1,exports:{}};return e[r].call(t.exports,t,t.exports,i),t.l=!0,t.exports}i.m=e,i.c=n,i.d=function(e,r,t){i.o(e,r)||Object.defineProperty(e,r,{enumerable:!0,get:t})},i.r=function(e){"undefined"!==typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},i.t=function(e,r){if(1&r&&(e=i(e)),8&r)return e;if(4&r&&"object"===typeof e&&e&&e.__esModule)return e;var t=Object.create(null);if(i.r(t),Object.defineProperty(t,"default",{enumerable:!0,value:e}),2&r&&"string"!=typeof e)for(var n in e)i.d(t,n,function(r){return e[r]}.bind(null,n));return t},i.n=function(e){var r=e&&e.__esModule?function(){return e.default}:function(){return e};return i.d(r,"a",r),r},i.o=function(e,r){return Object.prototype.hasOwnProperty.call(e,r)},i.p="\/";var l=this["webpackJsonphog-gui"]=this["webpackJsonphog-gui"]||[],f=l.push.bind(l);l.push=r,l=l.slice();for(var a=0;a<l.length;a++)r(l[a]);var p=f;t()}([]);$/;"	m
+reverse	lab/lab07/lab07.py	/^def reverse(lst):$/;"	f
+reverse_iter	lab/lab04/lab04.py	/^def reverse_iter(lst):$/;"	f
+reverse_recursive	lab/lab04/lab04.py	/^def reverse_recursive(lst):$/;"	f
+riffle	lab/lab05/lab05.py	/^def riffle(deck):$/;"	f
+right	homework/hw04/hw04.py	/^def right(m):$/;"	f
+roll_dice	project/hog/hog.py	/^def roll_dice(num_rolls, dice=six_sided):$/;"	f
+route	project/hog/gui_files/common_server.py	/^def route(path):$/;"	f
+route	project/hog/hog_gui.py	/^from gui_files.common_server import route, start$/;"	i
+routed_fn	project/hog/gui_files/common_server.py	/^        def routed_fn(data):$/;"	f	function:multiplayer_route.wrap
+run	project/hog/hog.py	/^def run(*args):$/;"	f
+run_experiments	project/hog/hog.py	/^def run_experiments():$/;"	f
+run_with_seed	project/hog/tests/play_utils.py	/^def run_with_seed(seed, fn):$/;"	f
+safe	project/hog/hog_gui.py	/^def safe(commentary):$/;"	f
+say	project/hog/hog.py	/^    def say(score0, score1):$/;"	f	function:announce_lead_changes
+say	project/hog/hog.py	/^    def say(score0, score1):$/;"	f	function:both
+say_scores	project/hog/hog.py	/^def say_scores(score0, score1):$/;"	f
+sculptural	tests.py	/^def sculptural(ruler, k):$/;"	f
+search	tests.py	/^def search(f):$/;"	f
+sec	tests.py	/^    def sec():$/;"	f	function:fir
+send	project/hog/gui_files/common_server.py	/^        def send(data):$/;"	f	function:multiplayer_route.wrap
+send_failure	project/hog/calc.py	/^        def send_failure(self, oauth_exception):$/;"	m	class:_get_code_via_browser.CodeHandler
+send_from_directory	project/hog/gui_files/common_server.py	/^    from flask import Flask, request, jsonify, send_from_directory$/;"	i
+send_redirect	project/hog/calc.py	/^        def send_redirect(self, location):$/;"	m	class:_get_code_via_browser.CodeHandler
+server	project/hog/calc.py	/^import http.server$/;"	i
+server	project/hog/gui_files/common_server.py	/^from http import HTTPStatus, server$/;"	i
+shakespeare_tokens	lab/lab05/lab05.py	/^def shakespeare_tokens(path='shakespeare.txt', url='http:\/\/composingprograms.com\/shakespeare.txt'):$/;"	f
+shrink	tests.py	/^shrink = lambda n: f_then_g(print, shrink, n \/\/ 10)$/;"	v
+signal	project/hog/ucb.py	/^import signal$/;"	i
+silence	project/hog/hog.py	/^def silence(score0, score1):$/;"	f
+six_sided	project/hog/dice.py	/^six_sided = make_fair_dice(6)$/;"	v
+six_sided	project/hog/hog.py	/^from dice import six_sided, four_sided, make_test_dice$/;"	i
+size	homework/hw04/hw04.py	/^def size(w):$/;"	f
+snakify	project/hog/gui_files/common_server.py	/^def snakify(data):$/;"	f
+socket	project/hog/calc.py	/^    import socket$/;"	i
+socketserver	project/hog/gui_files/common_server.py	/^import socketserver$/;"	i
+split	tests.py	/^def split(n):$/;"	f
+sprout_leaves	lab/lab05/lab05.py	/^def sprout_leaves(t, leaves):$/;"	f
+sqrt	lab/lab04/lab04.py	/^from math import sqrt$/;"	i
+square	homework/hw02/hw02.py	/^square = lambda x: x * x$/;"	v
+square	tests.py	/^def square(x):$/;"	f
+ssl	project/hog/gui_files/common_server.py	/^import ssl$/;"	i
+staggered	project/hog/hog.py	/^from asyncio import staggered$/;"	i
+start	project/hog/gui_files/common_server.py	/^def start(port, default_server, gui_folder):$/;"	f
+start	project/hog/hog_gui.py	/^from gui_files.common_server import route, start$/;"	i
+start_client	project/hog/gui_files/common_server.py	/^def start_client(port, default_server, gui_folder, standalone):$/;"	f
+start_server	project/hog/gui_files/common_server.py	/^def start_server():$/;"	f
+storeroom	tests.py	/^def storeroom(helium, fn_even, fn_odd):$/;"	f
+str_interval	homework/hw04/hw04.py	/^def str_interval(x):$/;"	f
+strategy	project/hog/hog.py	/^    def strategy(score, opponent_score):$/;"	f	function:always_roll
+strategy	project/hog/hog_gui.py	/^    def strategy(*scores):$/;"	f	function:take_turn
+strategy	project/hog/hog_gui.py	/^def strategy(name, scores):$/;"	f
+sub	homework/hw01/hw01.py	/^from operator import add, sub$/;"	i
+sub	homework/hw02/hw02.py	/^from operator import add, mul, sub$/;"	i
+sub	homework/hw03/hw03.py	/^from operator import sub, mul$/;"	i
+sub_interval	homework/hw04/hw04.py	/^def sub_interval(x, y):$/;"	f
+subseq_helper	lab/lab07/lab07.py	/^    def subseq_helper(s, prev):$/;"	f	function:inc_subseqs
+subseqs	lab/lab07/lab07.py	/^def subseqs(s):$/;"	f
+successor	homework/hw02/hw02.py	/^def successor(n):$/;"	f
+sum_digits	lab/lab01/lab01.py	/^def sum_digits(y):$/;"	f
+sum_num	tests.py	/^def sum_num(n):$/;"	f
+sum_num_iter	tests.py	/^def sum_num_iter(n):$/;"	f
+sum_num_recru	tests.py	/^def sum_num_recru(n, digit_sum):$/;"	f
+summation_using_accumulate	homework/hw02/hw02.py	/^def summation_using_accumulate(n, term):$/;"	f
+swap_strategy	project/hog/hog.py	/^def swap_strategy(score, opponent_score, cutoff=8, num_rolls=6):$/;"	f
+sys	project/hog/ucb.py	/^import sys$/;"	i
+t	project/hog/gui_files/static/js/runtime-main.71e877b4.js	/^!function(e){function r(r){for(var n,i,l=r[0],f=r[1],a=r[2],c=0,s=[];c<l.length;c++)i=l[c],Object.prototype.hasOwnProperty.call(o,i)&&o[i]&&s.push(o[i][0]),o[i]=0;for(n in f)Object.prototype.hasOwnProperty.call(f,n)&&(e[n]=f[n]);for(p&&p(r);s.length;)s.shift()();return u.push.apply(u,a||[]),t()}function t(){for(var e,r=0;r<u.length;r++){for(var t=u[r],n=!0,l=1;l<t.length;l++){var f=t[l];0!==o[f]&&(n=!1)}n&&(u.splice(r--,1),e=i(i.s=t[0]))}return e}var n={},o={1:0},u=[];function i(r){if(n[r])return n[r].exports;var t=n[r]={i:r,l:!1,exports:{}};return e[r].call(t.exports,t,t.exports,i),t.l=!0,t.exports}i.m=e,i.c=n,i.d=function(e,r,t){i.o(e,r)||Object.defineProperty(e,r,{enumerable:!0,get:t})},i.r=function(e){"undefined"!==typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},i.t=function(e,r){if(1&r&&(e=i(e)),8&r)return e;if(4&r&&"object"===typeof e&&e&&e.__esModule)return e;var t=Object.create(null);if(i.r(t),Object.defineProperty(t,"default",{enumerable:!0,value:e}),2&r&&"string"!=typeof e)for(var n in e)i.d(t,n,function(r){return e[r]}.bind(null,n));return t},i.n=function(e){var r=e&&e.__esModule?function(){return e.default}:function(){return e};return i.d(r,"a",r),r},i.o=function(e,r){return Object.prototype.hasOwnProperty.call(e,r)},i.p="\/";var l=this["webpackJsonphog-gui"]=this["webpackJsonphog-gui"]||[],f=l.push.bind(l);l.push=r,l=l.slice();for(var a=0;a<l.length;a++)r(l[a]);var p=f;t()}([]);$/;"	f
+t	tests.py	/^def t(a):$/;"	f
+t.i	project/hog/gui_files/static/js/runtime-main.71e877b4.js	/^!function(e){function r(r){for(var n,i,l=r[0],f=r[1],a=r[2],c=0,s=[];c<l.length;c++)i=l[c],Object.prototype.hasOwnProperty.call(o,i)&&o[i]&&s.push(o[i][0]),o[i]=0;for(n in f)Object.prototype.hasOwnProperty.call(f,n)&&(e[n]=f[n]);for(p&&p(r);s.length;)s.shift()();return u.push.apply(u,a||[]),t()}function t(){for(var e,r=0;r<u.length;r++){for(var t=u[r],n=!0,l=1;l<t.length;l++){var f=t[l];0!==o[f]&&(n=!1)}n&&(u.splice(r--,1),e=i(i.s=t[0]))}return e}var n={},o={1:0},u=[];function i(r){if(n[r])return n[r].exports;var t=n[r]={i:r,l:!1,exports:{}};return e[r].call(t.exports,t,t.exports,i),t.l=!0,t.exports}i.m=e,i.c=n,i.d=function(e,r,t){i.o(e,r)||Object.defineProperty(e,r,{enumerable:!0,get:t})},i.r=function(e){"undefined"!==typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},i.t=function(e,r){if(1&r&&(e=i(e)),8&r)return e;if(4&r&&"object"===typeof e&&e&&e.__esModule)return e;var t=Object.create(null);if(i.r(t),Object.defineProperty(t,"default",{enumerable:!0,value:e}),2&r&&"string"!=typeof e)for(var n in e)i.d(t,n,function(r){return e[r]}.bind(null,n));return t},i.n=function(e){var r=e&&e.__esModule?function(){return e.default}:function(){return e};return i.d(r,"a",r),r},i.o=function(e,r){return Object.prototype.hasOwnProperty.call(e,r)},i.p="\/";var l=this["webpackJsonphog-gui"]=this["webpackJsonphog-gui"]||[],f=l.push.bind(l);l.push=r,l=l.slice();for(var a=0;a<l.length;a++)r(l[a]);var p=f;t()}([]);$/;"	f
+table	lab/lab05/lab05.py	/^table = build_successors_table(tokens)$/;"	v
+take_turn	project/hog/hog.py	/^def take_turn(num_rolls, opponent_score, dice=six_sided):$/;"	f
+take_turn	project/hog/hog_gui.py	/^def take_turn(prev_rolls, move_history, goal, game_rules):$/;"	f
+test	homework/hw04/tests/check_par.py	/^test = {$/;"	v
+test	homework/hw04/tests/div_interval.py	/^test = {$/;"	v
+test	homework/hw04/tests/interval.py	/^test = {$/;"	v
+test	homework/hw04/tests/mul_interval.py	/^test = {$/;"	v
+test	homework/hw04/tests/polynomial.py	/^test = {$/;"	v
+test	homework/hw04/tests/quadratic.py	/^test = {$/;"	v
+test	homework/hw04/tests/sub_interval.py	/^test = {$/;"	v
+test	lab/lab00/tests/python-basics.py	/^test = {$/;"	v
+test	lab/lab01/tests/clones.py	/^test = {$/;"	v
+test	lab/lab01/tests/control.py	/^test = {$/;"	v
+test	lab/lab01/tests/debugging-quiz.py	/^test = {$/;"	v
+test	lab/lab01/tests/if-statements.py	/^test = {$/;"	v
+test	lab/lab01/tests/short-circuit.py	/^test = {$/;"	v
+test	lab/lab02/tests/hof-wwpd.py	/^test = {$/;"	v
+test	lab/lab02/tests/lambda.py	/^test = {$/;"	v
+test	lab/lab03/tests/recursion-wwpd.py	/^test = {$/;"	v
+test	lab/lab03/tests/sr-wwpd.py	/^test = {$/;"	v
+test	lab/lab04/tests/list-indexing.py	/^test = {$/;"	v
+test	lab/lab05/tests/wwpd.py	/^test = {$/;"	v
+test	lab/lab06/tests/list-mutation.py	/^test = {$/;"	v
+test	project/hog/tests/00.py	/^test = {$/;"	v
+test	project/hog/tests/01.py	/^test = {$/;"	v
+test	project/hog/tests/02.py	/^test = {$/;"	v
+test	project/hog/tests/03.py	/^test = {$/;"	v
+test	project/hog/tests/04.py	/^test = {$/;"	v
+test	project/hog/tests/05a.py	/^test = {$/;"	v
+test	project/hog/tests/05b.py	/^test = {$/;"	v
+test	project/hog/tests/06.py	/^test = {$/;"	v
+test	project/hog/tests/07.py	/^test = {$/;"	v
+test	project/hog/tests/08.py	/^test = {$/;"	v
+test	project/hog/tests/09.py	/^test = {$/;"	v
+test	project/hog/tests/10.py	/^test = {$/;"	v
+test	project/hog/tests/11.py	/^test = {$/;"	v
+test	project/hog/tests/12.py	/^test = {$/;"	v
+this_file	lab/lab06/lab06.py	/^this_file = __file__$/;"	v
+three	homework/hw02/hw02.py	/^three = successor(two)$/;"	v
+time	project/hog/calc.py	/^import time$/;"	i
+tokens	lab/lab05/lab05.py	/^tokens = shakespeare_tokens()$/;"	v
+total_weight	homework/hw04/hw04.py	/^def total_weight(m):$/;"	f
+totals_tree	homework/hw04/hw04.py	/^def totals_tree(m):$/;"	f
+trace	project/hog/hog.py	/^from ucb import main, trace, interact$/;"	i
+trace	project/hog/ucb.py	/^def trace(fn):$/;"	f
+trace_play	project/hog/hog_gui.py	/^def trace_play(play, strategy0, strategy1, score0, score1, dice, goal, say, feral_hogs):$/;"	f
+traceback	project/hog/gui_files/common_server.py	/^import traceback$/;"	i
+trade	lab/lab07/lab07.py	/^def trade(first, second):$/;"	f
+tree	homework/hw04/hw04.py	/^def tree(label, branches=[]):$/;"	f
+tree	lab/lab05/lab05.py	/^def tree(label, branches=[]):$/;"	f
+triple	homework/hw02/hw02.py	/^triple = lambda x: 3 * x$/;"	v
+true_func	homework/hw01/hw01.py	/^def true_func():$/;"	f
+twenty_twenty	lab/lab00/lab00.py	/^def twenty_twenty():$/;"	f
+two	homework/hw02/hw02.py	/^def two(f):$/;"	f
+two_of_three	homework/hw01/hw01.py	/^def two_of_three(x, y, z):$/;"	f
+unquote	project/hog/gui_files/common_server.py	/^from urllib.parse import unquote$/;"	i
+up	lab/lab02/lab02.py	/^    def up():$/;"	f	function:both_paths
+upper_bound	homework/hw04/hw04.py	/^def upper_bound(x):$/;"	f
+urlencode	project/hog/calc.py	/^from urllib.parse import parse_qsl, urlencode, urlparse$/;"	i
+urlencode	project/hog/calc.py	/^from urllib.parse import urlencode$/;"	i
+urlopen	lab/lab05/lab05.py	/^    from urllib.request import urlopen$/;"	i
+urlopen	project/hog/calc.py	/^from urllib.request import Request, urlopen$/;"	i
+urlopen	project/hog/gui_files/common_server.py	/^from urllib.request import Request, urlopen$/;"	i
+urlparse	project/hog/calc.py	/^from urllib.parse import parse_qsl, urlencode, urlparse$/;"	i
+visit_Call	homework/hw02/construct_check.py	/^    def visit_Call(self, node):$/;"	m	class:ExclusionChecker
+visit_Call	homework/hw03/construct_check.py	/^    def visit_Call(self, node):$/;"	m	class:ExclusionChecker
+visit_Call	homework/hw04/construct_check.py	/^    def visit_Call(self, node):$/;"	m	class:ExclusionChecker
+visit_Call	lab/lab03/construct_check.py	/^    def visit_Call(self, node):$/;"	m	class:ExclusionChecker
+visit_Call	lab/lab04/construct_check.py	/^    def visit_Call(self, node):$/;"	m	class:ExclusionChecker
+visit_Call	lab/lab05/construct_check.py	/^    def visit_Call(self, node):$/;"	m	class:ExclusionChecker
+visit_Call	lab/lab06/construct_check.py	/^    def visit_Call(self, node):$/;"	m	class:ExclusionChecker
+visit_FunctionDef	homework/hw02/construct_check.py	/^    def visit_FunctionDef(self, node):$/;"	m	class:ExclusionChecker
+visit_FunctionDef	homework/hw03/construct_check.py	/^    def visit_FunctionDef(self, node):$/;"	m	class:ExclusionChecker
+visit_FunctionDef	homework/hw04/construct_check.py	/^    def visit_FunctionDef(self, node):$/;"	m	class:ExclusionChecker
+visit_FunctionDef	lab/lab03/construct_check.py	/^    def visit_FunctionDef(self, node):$/;"	m	class:ExclusionChecker
+visit_FunctionDef	lab/lab04/construct_check.py	/^    def visit_FunctionDef(self, node):$/;"	m	class:ExclusionChecker
+visit_FunctionDef	lab/lab05/construct_check.py	/^    def visit_FunctionDef(self, node):$/;"	m	class:ExclusionChecker
+visit_FunctionDef	lab/lab06/construct_check.py	/^    def visit_FunctionDef(self, node):$/;"	m	class:ExclusionChecker
+visit_Module	homework/hw02/construct_check.py	/^    def visit_Module(self, node):$/;"	m	class:ExclusionChecker
+visit_Module	homework/hw03/construct_check.py	/^    def visit_Module(self, node):$/;"	m	class:ExclusionChecker
+visit_Module	homework/hw04/construct_check.py	/^    def visit_Module(self, node):$/;"	m	class:ExclusionChecker
+visit_Module	lab/lab03/construct_check.py	/^    def visit_Module(self, node):$/;"	m	class:ExclusionChecker
+visit_Module	lab/lab04/construct_check.py	/^    def visit_Module(self, node):$/;"	m	class:ExclusionChecker
+visit_Module	lab/lab05/construct_check.py	/^    def visit_Module(self, node):$/;"	m	class:ExclusionChecker
+visit_Module	lab/lab06/construct_check.py	/^    def visit_Module(self, node):$/;"	m	class:ExclusionChecker
+webbrowser	project/hog/calc.py	/^import webbrowser$/;"	i
+webbrowser	project/hog/gui_files/common_server.py	/^import webbrowser$/;"	i
+winner	project/hog/hog.py	/^def winner(strategy0, strategy1):$/;"	f
+with_if_function	homework/hw01/hw01.py	/^def with_if_function():$/;"	f
+with_if_statement	homework/hw01/hw01.py	/^def with_if_statement():$/;"	f
+withdraw	tests.py	/^    def withdraw(amount):$/;"	f	function:make_withdraw
+wrap	project/hog/gui_files/common_server.py	/^    def wrap(f):$/;"	f	function:multiplayer_route
+wrap	project/hog/gui_files/common_server.py	/^    def wrap(f):$/;"	f	function:route
+wrapped	project/hog/ucb.py	/^    def wrapped(*args, **kwds):$/;"	f	function:trace
+wrapped_handler	project/hog/gui_files/common_server.py	/^        def wrapped_handler(handler=handler):$/;"	f	function:start_server
+x_cycle	lab/lab02/lab02.py	/^        def x_cycle(x):$/;"	f	function:cycle.n_cycle
+zero	homework/hw02/hw02.py	/^def zero(f):$/;"	f

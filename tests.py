@@ -169,3 +169,11 @@ def pq(k):
         else:
             return helper(i + 1, state + direc, direc)
     return helper(1, 1, 1)
+
+def make_withdraw(bal):
+    def withdraw(amount):
+        if amount > bal:
+            return error
+        bal -= amount
+        return amount
+    return withdraw
