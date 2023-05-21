@@ -32,7 +32,6 @@ def choose(paragraphs, select, k):
 def about(topic):
     """Return a select function that returns whether a paragraph contains one
     of the words in TOPIC.
-
     >>> about_dogs = about(['dog', 'dogs', 'pup', 'puppy'])
     >>> choose(['Cute Dog!', 'That is a cat.', 'Nice pup!'], about_dogs, 0)
     'Cute Dog!'
@@ -55,7 +54,6 @@ def about(topic):
 def accuracy(typed, reference):
     """Return the accuracy (percentage of words typed correctly) of TYPED
     when compared to the prefix of REFERENCE that was typed.
-
     >>> accuracy('Cute Dog!', 'Cute Dog.')
     50.0
     >>> accuracy('A Cute Dog!', 'Cute Dog.')
@@ -139,48 +137,48 @@ def meowstake_matches(start, goal, limit):
     """A diff function that computes the edit distance from START to GOAL."""
 
     # methon 1
-    if limit < 0: # Fill in the condition
-        # BEGIN
-        "*** YOUR CODE HERE ***"
-        return 0
-        # END
+    # if limit < 0: # Fill in the condition
+    #     # BEGIN
+    #     "*** YOUR CODE HERE ***"
+    #     return 0
+    #     # END
 
-    elif len(start) == 0 or len(goal) == 0: # Feel free to remove or add additional cases
-        # BEGIN
-        "*** YOUR CODE HERE ***"
-        return len(start) + len(goal)
-        # END
-    elif start[0] == goal[0]:
-        return meowstake_matches(start[1:], goal[1:], limit)
+    # elif len(start) == 0 or len(goal) == 0: # Feel free to remove or add additional cases
+    #     # BEGIN
+    #     "*** YOUR CODE HERE ***"
+    #     return len(start) + len(goal)
+    #     # END
+    # elif start[0] == goal[0]:
+    #     return meowstake_matches(start[1:], goal[1:], limit)
 
-    else:
-        add_diff = meowstake_matches(start, goal[1:], limit - 1)  # Fill in these lines
-        remove_diff = meowstake_matches(start[1:], goal, limit - 1) 
-        substitute_diff = meowstake_matches(start[1:], goal[1:], limit - 1) 
-        # BEGIN
-        "*** YOUR CODE HERE ***"
-        return 1 + min(add_diff, remove_diff, substitute_diff)
-        # END
+    # else:
+    #     add_diff = meowstake_matches(start, goal[1:], limit - 1)  # Fill in these lines
+    #     remove_diff = meowstake_matches(start[1:], goal, limit - 1) 
+    #     substitute_diff = meowstake_matches(start[1:], goal[1:], limit - 1) 
+    #     # BEGIN
+    #     "*** YOUR CODE HERE ***"
+    #     return 1 + min(add_diff, remove_diff, substitute_diff)
+    #     # END
     
     # method 2
-    # n, m = len(start), len(goal)
-    # dp = [[0 for i in range(m + 5)] for j in range(n + 5)]
+    n, m = len(start), len(goal)
+    dp = [[0 for i in range(m + 5)] for j in range(n + 5)]
 
-    # for i in range(n + 1):
-    #     dp[i][0] = i
-    # for i in range(m + 1):
-    #     dp[0][i] = i
+    for i in range(n + 1):
+        dp[i][0] = i
+    for i in range(m + 1):
+        dp[0][i] = i
     
-    # for i in range(1, n + 1):
-    #     for j in range(1, m + 1):
-    #         dp[i][j] = min(dp[i - 1][j] + 1, dp[i][j - 1] + 1)
-    #         if (start[i - 1] != goal[j - 1]):
-    #             dp[i][j] = min(dp[i][j], dp[i - 1][j - 1] + 1)
-    #         else:
-    #             dp[i][j] = min(dp[i][j], dp[i - 1][j - 1])
-    # if (dp[n][m] > limit):
-    #     return dp[n][m]
-    # return dp[n][m]
+    for i in range(1, n + 1):
+        for j in range(1, m + 1):
+            dp[i][j] = min(dp[i - 1][j] + 1, dp[i][j - 1] + 1)
+            if (start[i - 1] != goal[j - 1]):
+                dp[i][j] = min(dp[i][j], dp[i - 1][j - 1] + 1)
+            else:
+                dp[i][j] = min(dp[i][j], dp[i - 1][j - 1])
+    if (dp[n][m] > limit):
+        return dp[n][m]
+    return dp[n][m]
 
 
 def final_diff(start, goal, limit):
@@ -225,7 +223,6 @@ def fastest_words_report(times_per_player, words):
 def time_per_word(times_per_player, words):
     """Given timing data, return a game data abstraction, which contains a list
     of words and the amount of time each player took to type each word.
-
     Arguments:
         times_per_player: A list of lists of timestamps including the time
                           the player started typing, followed by the time
@@ -248,7 +245,6 @@ def time_per_word(times_per_player, words):
 
 def fastest_words(game):
     """Return a list of lists of which words each player typed fastest.
-
     Arguments:
         game: a game data abstraction as returned by time_per_word.
     Returns:
@@ -308,7 +304,7 @@ def game_string(game):
     """A helper function that takes in a game object and returns a string representation of it"""
     return "game(%s, %s)" % (game[0], game[1])
 
-enable_multiplayer = False  # Change to True when you
+enable_multiplayer = True  # Change to True when you
 
 ##########################
 # Extra Credit #
@@ -374,8 +370,6 @@ def faster_autocorrect(user_word, valid_words, diff_function, limit):
     if idx in memo_for_fa:
         return memo_for_fa[idx]
     else:
-        # print("DEBUG: will is in the valid_words", "will" in valid_words)
-        # print("DEBUG: dist(woll, will) = ", diff_function(user_word, "will", limit))
         # print("DEBUG: dist(woll, well) = ", diff_function(user_word, "well", limit))
         words_diff = [diff_function(user_word, w, limit) for w in valid_words]
         similar_word, similar_diff = min(zip(valid_words, words_diff), key=lambda item: item[1])
