@@ -36,6 +36,15 @@ def scheme_eval(expr, env, _=None): # Optional third argument is ignored
     else:
         # BEGIN PROBLEM 4
         "*** YOUR CODE HERE ***"
+        operator = scheme_eval(first, env)
+        validate_procedure(operator)
+        # if op is macroprocedure
+        if isinstance(operator, MacroProcedure):
+            print("debug: apply_macro", rest, env)
+            return scheme_eval(operator.apply_macro(rest, env), env)
+        # else op is builtprocedure
+        operands = rest.map(lambda x: scheme_eval(x, env))
+        return scheme_apply(operator, operands, env)
         # END PROBLEM 4
 
 def self_evaluating(expr):
@@ -161,6 +170,16 @@ class BuiltinProcedure(Procedure):
         python_args = []
         # BEGIN PROBLEM 3
         "*** YOUR CODE HERE ***"
+        curr = args
+        while curr is not nil:
+            python_args.append(curr.first)
+            curr = curr.rest
+        if self.use_env:
+            python_args.append(env)
+        try:
+            return self.fn(*python_args)
+        except TypeError:
+            raise SchemeError('wrong number of arguments were passed')
         # END PROBLEM 3
 
 class LambdaProcedure(Procedure):
