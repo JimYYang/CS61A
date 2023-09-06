@@ -1,5 +1,5 @@
 """A Scheme interpreter and its read-eval-print loop."""
-from __future__ import print_function  # Python 2 compatibility
+from __future__ import print_function  # python 2 compatibility
 
 import sys
 
@@ -8,12 +8,12 @@ from scheme_reader import *
 from ucb import main, trace
 
 ##############
-# Eval/Apply #
+# eval/apply #
 ##############
 
 
-def scheme_eval(expr, env, _=None): # Optional third argument is ignored
-    """Evaluate Scheme expression EXPR in environment ENV.
+def scheme_eval(expr, env, _=none): # optional third argument is ignored
+    """evaluate scheme expression expr in environment env.
 
     >>> expr = read_line('(+ 2 2)')
     >>> expr
